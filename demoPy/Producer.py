@@ -9,7 +9,7 @@ def main():
     channel.queue_declare(queue='hello')
 
     # Publicar un mensaje
-    channel.basic_publish(exchange='', routing_key='hello', body='Hello RabbitMQ!')
+    channel.basic_publish(exchange='', routing_key='hello', body='Hello RabbitMQ send: Anderson!')
 
     print(" [x] Sent 'Hello RabbitMQ!'")
 

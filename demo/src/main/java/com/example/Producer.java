@@ -16,7 +16,7 @@ public class Producer {
             Connection connection = factory.newConnection();
             Channel channel = connection.createChannel();
             channel.queueDeclare("hello", false, false, false, null);
-            String message = "Hello, RabbitMQ!";
+            String message = "Hello, RabbitMQ send: Anderson!";
             channel.basicPublish("", "hello", null, message.getBytes());
             System.out.println(" [x] Sent '" + message + "'");
             channel.close();

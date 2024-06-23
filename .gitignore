@@ -1,0 +1,120 @@
+# Directorios comunes
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+.DS_Store
+
+# Archivos y directorios de Maven (Java)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Archivos y directorios de Gradle (Java)
+.gradle/
+build/
+out/
+
+# Archivos de configuración específicos de IntelliJ (Java)
+*.ipr
+*.iws
+*.idea/
+*.iml
+out/
+
+# Archivos generados por Eclipse (Java)
+*.classpath
+*.project
+*.settings/
+
+# Archivos específicos de NetBeans (Java)
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archivos de log de Spring Boot (Java)
+spring.log
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales de Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos específicos de Jupyter Notebook (Python)
+.ipynb_checkpoints
+
+# Archivos de configuración de Python
+*.env
+*.pyo
+*.pyd
+*.whl
+
+# Archivos de configuración específicos de IDEs
+.vscode/
+*.code-workspace
+
+# Archivos de configuración de sistemas operativos
+Thumbs.db
+Desktop.ini
+
+# Archivos de paquetes y distribuciones (Python)
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Archivos de cobertura de pruebas (Python)
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de resultados de pruebas
+junit-reports/
+
+# Archivos de despliegue (Python)
+.pytest_cache/
+.snyk
+
+# Archivos de compilación de Cython (Python)
+*.c
+*.cpp
+*.so
+
+# Archivos de bases de datos (Python)
+*.sqlite3
+
+# Archivos de distribución (Python)
+dist/
+build/
+wheels/
+*.egg-info/
+.installed.cfg
+.eggs/
+
+# Archivos de documentación (Python)
+docs/_build/
